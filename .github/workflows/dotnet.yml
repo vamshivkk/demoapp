@@ -10,7 +10,6 @@ on:
 env:
   AZURE_WEBAPP_NAME: testwebappdotnet    # set this to your application's name
   AZURE_WEBAPP_PACKAGE_PATH: './published'      # set this to the path to your web app project, defaults to the repository root
-  AZURE_SUBSCRIPTION_ID: cda81f25-146f-4d17-b774-0f8adf7c1777
 
 jobs:
   build:
